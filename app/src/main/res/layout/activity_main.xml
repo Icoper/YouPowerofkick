@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/globalBackground"
+    tools:context="com.apps_x.samik.youpowerofkick.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/ma_best_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border_left"
+            android:padding="8dp"
+            android:paddingStart="50dp"
+            android:text="best"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="6dp"
+            tools:text="Best score in game : 3758 p" />
+
+        <TextView
+            android:id="@+id/ma_you_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/custom_border_right"
+            android:padding="8dp"
+            android:paddingEnd="50dp"
+            android:text="best you"
+            tools:layout_editor_absoluteX="194dp"
+            tools:layout_editor_absoluteY="46dp"
+            tools:text="You best score : 1351 p" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:orientation="vertical">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/ma_start_game"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/play_game_btn" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/ma_scores"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/score_btn" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/ma_settings"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/guide_btn" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/ma_guide"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/settings_btn" />
+    </LinearLayout>
+
+
+</RelativeLayout>

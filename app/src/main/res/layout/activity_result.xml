@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/globalBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/ra_text_kick_tv"
+        android:textSize="38sp"
+        android:layout_gravity="center"
+        android:text="@string/shake_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/ra_count_kick_tv"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ra_count_kick_tv"
+        android:layout_gravity="center"
+        android:textSize="100sp"
+        android:text="0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/ra_count_kick_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp">
+
+        <info.hoang8f.widget.FButton
+            android:layout_gravity="center"
+            android:id="@+id/ra_to_home_btn"
+            android:text="@string/go_to_home_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp" />
+
+        <info.hoang8f.widget.FButton
+            android:layout_gravity="center"
+            android:id="@+id/ra_replay_btn"
+            android:text="@string/replay_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

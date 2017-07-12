@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">You shaking force</string>
+    <string name="play_game_btn">Play</string>
+    <string name="score_btn">Scores</string>
+    <string name="settings_btn">Settings</string>
+    <string name="guide_btn">Guide</string>
+    <string name="user_best_score">Your best score : </string>
+    <string name="top_user_best_score">Highest player score : </string>
+    <string name="shake_power">You shaking force</string>
+    <string name="signin_other_error">There was an error during sign in.</string>
+    <string name="to_measure_btn">To measure</string>
+    <string name="ok_btn">Ok</string>
+    <string name="go_to_home_btn">To home </string>
+    <string name="replay_btn">Replay</string>
+    <string name="shaking_wait">Shake</string>
+</resources>

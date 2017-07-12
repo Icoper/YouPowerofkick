@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541725797354",
+    "firebase_url": "https://youpowerofkick.firebaseio.com",
+    "project_id": "youpowerofkick",
+    "storage_bucket": "youpowerofkick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541725797354:android:d8bb651c22397990",
+        "android_client_info": {
+          "package_name": "com.apps_x.samik.youpowerofkick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541725797354-s1a2nm8otqbctnnt7uipu1smvnik67bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps_x.samik.youpowerofkick",
+            "certificate_hash": "8a1f6145e87a844f7343d181f0e5000563bd2eda"
+          }
+        },
+        {
+          "client_id": "541725797354-i48dqn8rjq2l4765qm9troo3jiv29opa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrTTLzQ-wKJ4Q8F9CC2hp-wq4X-XYToLY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541725797354-i48dqn8rjq2l4765qm9troo3jiv29opa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
