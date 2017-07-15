@@ -40,12 +40,13 @@ class AccelerometerDataListener {
 
         // отфильтровываем отрицателные значения акселерометра
         if (valueX < 0) {
-            valueX = 0;
+            valueX = valueX * -1;
         } else if (valueY < 0) {
-            valueY = 0;
+            valueY = valueY * -1;
         } else if (valueZ < 0) {
-            valueZ = 0;
+            valueZ = valueZ * -1;
         }
+        
         gravity[0] = alpha * gravity[0] + (1 - alpha) * valueX;
         gravity[1] = alpha * gravity[1] + (1 - alpha) * valueY;
         gravity[2] = alpha * gravity[2] + (1 - alpha) * valueZ;
@@ -108,7 +109,7 @@ class AccelerometerDataListener {
         intent.putExtra(POWER_COUNT_INTENT, finalSum);
         // check user score.
         SharedPrefWorker prefWorker = new SharedPrefWorker(contextApp);
-        if (prefWorker.getUserBest() < finalSum){
+        if (prefWorker.getUserBest() < finalSum) {
             prefWorker.saveUserBest(finalSum);
         }
         // set default data
@@ -118,7 +119,6 @@ class AccelerometerDataListener {
 
 
         contextApp.startActivity(intent);
-
 
 
     }
